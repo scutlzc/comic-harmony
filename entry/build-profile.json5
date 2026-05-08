@@ -1,0 +1,13 @@
+{
+  apiType: 'stageMode',
+  buildOption: {
+    arkOptions: {
+      strictMode: 'loose'
+    }
+  },
+  target: {
+    hap: {
+      load: ['all']
+    }
+  }
+}

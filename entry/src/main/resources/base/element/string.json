@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "ComicHarmony"
+    },
+    {
+      "name": "tab_home",
+      "value": "首页"
+    },
+    {
+      "name": "tab_discover",
+      "value": "发现"
+    },
+    {
+      "name": "tab_favorites",
+      "value": "收藏"
+    },
+    {
+      "name": "tab_profile",
+      "value": "我的"
+    }
+  ]
+}

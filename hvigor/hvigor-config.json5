@@ -1,0 +1,10 @@
+{
+  modelVersion: '5.0.0',
+  sdkVersions: [
+    {
+      name: 'HarmonyOS',
+      compileSdkVersion: '5.0.0(12)',
+      compatibleSdkVersion: '5.0.0'
+    }
+  ]
+}

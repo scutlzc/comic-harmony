@@ -1,0 +1,24 @@
+# build outputs
+build/
+.hvigor/
+.hvigor/output/
+.hvigor/build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Gradle
+.gradle/
+build/

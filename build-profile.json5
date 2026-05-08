@@ -1,0 +1,22 @@
+{
+  app: {
+    bundleName: 'com.muyue.comicharmony',
+    vendor: '暮月',
+    version: {
+      code: 1,
+      name: '1.0.0'
+    }
+  },
+  modules: [
+    {
+      name: 'entry',
+      srcPath: './entry',
+      target: 'hap'
+    }
+  ],
+  buildOption: {
+    arkOptions: {
+      strictMode: 'loose'
+    }
+  }
+}

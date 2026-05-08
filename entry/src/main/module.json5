@@ -1,0 +1,89 @@
+{
+  module: {
+    name: 'entry',
+    type: 'entry',
+    srcEntry: './ets/entryability/EntryAbility.ets',
+    description: 'ComicHarmony - 漫画阅读平台',
+    mainElement: 'EntryAbility',
+    deviceTypes: ['phone', 'tablet', '2in1'],
+    requestPermissions: [
+      {
+        name: 'ohos.permission.INTERNET'
+      },
+      {
+        name: 'ohos.permission.GET_NETWORK_INFO'
+      },
+      {
+        name: 'ohos.permission.READ_MEDIA'
+      },
+      {
+        name: 'ohos.permission.WRITE_MEDIA'
+      },
+      {
+        name: 'ohos.permission.DISTRIBUTED_DATASYNC'
+      }
+    ],
+    abilities: [
+      {
+        name: 'EntryAbility',
+        srcEntry: './ets/entryability/EntryAbility.ets',
+        description: '主入口',
+        icon: '$media:ic_launcher',
+        label: '$string:app_name',
+        startWindowIcon: '$media:ic_launcher',
+        startWindowBackground: '#1a1a2e',
+        exported: true,
+        skills: [
+          {
+            entities: ['entity.system.home'],
+            actions: ['action.system.home']
+          }
+        ]
+      }
+    ],
+    pages: {
+      pages: [
+        {
+          name: 'Index',
+          src: ['./ets/pages/Index.ets']
+        },
+        {
+          name: 'ComicDetail',
+          src: ['./ets/pages/ComicDetail.ets']
+        },
+        {
+          name: 'Reader',
+          src: ['./ets/pages/Reader.ets']
+        },
+        {
+          name: 'Search',
+          src: ['./ets/pages/Search.ets']
+        },
+        {
+          name: 'Login',
+          src: ['./ets/pages/Login.ets']
+        },
+        {
+          name: 'Profile',
+          src: ['./ets/pages/Profile.ets']
+        },
+        {
+          name: 'SourceManage',
+          src: ['./ets/pages/SourceManage.ets']
+        },
+        {
+          name: 'Favorites',
+          src: ['./ets/pages/Favorites.ets']
+        },
+        {
+          name: 'DataSourceBrowser',
+          src: ['./ets/pages/DataSourceBrowser.ets']
+        },
+        {
+          name: 'Offline',
+          src: ['./ets/pages/Offline.ets']
+        }
+      ]
+    }
+  }
+}
